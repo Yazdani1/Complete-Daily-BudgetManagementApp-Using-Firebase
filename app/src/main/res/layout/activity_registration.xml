@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/backdesign"
+    android:gravity="center"
+    android:layout_gravity="center"
+    android:layout_height="match_parent"
+    tools:context="yazdaniscodelab.firebasecompleteproject.RegistrationActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sign Up Here"
+        android:layout_margin="10dp"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:background="#920899"
+        android:padding="10dp"
+        android:layout_marginBottom="10dp"
+        android:textColor="@android:color/white"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:hint="Email:"
+        android:textColor="@android:color/white"
+        android:textColorHint="@android:color/white"
+        android:id="@+id/email_sinup_up"
+        android:background="@drawable/edtdesign"
+        android:padding="10dp"
+        android:inputType="textEmailAddress"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:hint="Password:"
+        android:background="@drawable/edtdesign"
+        android:padding="10dp"
+        android:textColor="@android:color/white"
+        android:textColorHint="@android:color/white"
+        android:id="@+id/password_sinup_up"
+        android:inputType="textPassword"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@drawable/edtdesign"
+        android:text="Sign Up"
+        android:id="@+id/btn_sinup_up"
+        android:textColor="@android:color/white"
+        android:textAppearance="?android:textAppearanceMedium"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="OR"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:textColor="@android:color/white"
+        android:gravity="center"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@drawable/edtdesign"
+        android:text="Sign In"
+        android:id="@+id/btn_signIn_up"
+        android:textColor="@android:color/white"
+        android:textAppearance="?android:textAppearanceMedium"
+        />
+
+
+
+
+</LinearLayout>

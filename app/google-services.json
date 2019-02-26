@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "640385875457",
+    "firebase_url": "https://fir-complete-project-f1f3e.firebaseio.com",
+    "project_id": "fir-complete-project-f1f3e",
+    "storage_bucket": "fir-complete-project-f1f3e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:640385875457:android:d3d9c7210fcac6a7",
+        "android_client_info": {
+          "package_name": "yazdaniscodelab.firebasecompleteproject"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "640385875457-nppguv0hmpd24ls45r0j2431ch4nqbea.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAw3T84NQl8Wm7R2hoRy2g0qS3pNfNSKSc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
